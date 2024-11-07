@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>crud</title>
+    <link rel="stylesheet" href=" {{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <section class="formulario">
+    <form>
+        <h1>SIGN UP</h1>
+        <div class="Nome">
+            <label for="Nome">Name:</label>
+            <input type="text">
+        </div>
+
+        <div class="CampoEmail">
+            <label for="Email">E-mail:</label>
+            <input type="text">
+        </div>
+        
+        <h4>sex</h4>
+     <div class="Gêneros">
+        <div class="Gênero">
+            <label for="Masculino">Masculine</label>
+            <input type="radio" id="Masculino" name="Gênero" value>
+        </div>
+        <div class="Gênero2">
+            <label for="Feminino">Feminine</label>
+            <input type="radio" id="Feminino" name="Gênero" value>
+        </div>
+    </div>
+        <input type="checkbox">
+        <label for="termos">I accept the <a href="">terms </a> and <a href="">conditions</a></label>
+
+        <button type="submit">Submit</button>
+
+    </form>
+
+</section>
+    
+</body>
+</html>
